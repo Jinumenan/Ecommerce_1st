@@ -6,6 +6,7 @@ import Categories from "../components/Categories";
 import Products from "../components/products";
 import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
+import ProductPage from "./ProductPage";
 
 export default function Home(){
     return<div>
@@ -14,6 +15,7 @@ export default function Home(){
         <Slider/>
         <Categories/>
         {/* <Products/> */}
+        
         <Newsletter/>
         <Footer/>
     </div>
